@@ -1,0 +1,1600 @@
+nohup: ignoring input
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg
+    [asin] => B00AFMLIC2
+    [commodity] => Aizawa Bento Noiramp;Blanc 黒 801-06938
+    [ranking] => 1389831
+    [weight] => 263 g
+    [dimensions] => 6.9 x 5.1 x 2.4 inches
+    [shipping] => 1785
+    [price_us] => 68.92
+    [price_us_prime] => 68.92
+    [prices_3_us] => 68.92:0:0;69.42:0:0;79.11:0:0
+    [amazon_prime] => 1
+    [price_jp] => 4451
+    [price_jp_prime] => 4451
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 1222.396134
+    [expected_profit] => 690.911426
+    [num_of_sellers] => 4
+    [release_date] => 2012/11/29
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱','https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg','https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg','B00AFMLIC2','Aizawa Bento Noiramp;Blanc 黒 801-06938','1389831','263 g','6.9 x 5.1 x 2.4 inches','1785','68.92','68.92','68.92:0:0;69.42:0:0;79.11:0:0','1','4451','4451','PRIME','PRIME','1222.396134','690.911426','4','2012/11/29') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41erxiahmbL.jpg',asin = 'B00AFMLIC2',commodity = 'Aizawa Bento Noiramp;Blanc 黒 801-06938',ranking = '1389831',weight = '263 g',dimensions = '6.9 x 5.1 x 2.4 inches',shipping = '1785',price_us = '68.92',price_us_prime = '68.92',prices_3_us = '68.92:0:0;69.42:0:0;79.11:0:0',amazon_prime = '1',price_jp = '4451',price_jp_prime = '4451',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '1222.396134',expected_profit = '690.911426',num_of_sellers = '4',release_date = '2012/11/29'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50203017169
+                    [FeedType] => _POST_INVENTORY_AVAILABILITY_DATA_
+                    [SubmittedDate] => 2017-01-03T12:47:21+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => c873536b-86ce-45ec-9b06-24803c03b5cd
+        )
+
+)
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50204017169
+                    [FeedType] => _POST_PRODUCT_PRICING_DATA_
+                    [SubmittedDate] => 2017-01-03T12:47:21+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 5fe4fc65-1061-4ce9-a100-83c70889d7ef
+        )
+
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,自転車,自転車アクセサリー,自転車カバー
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg
+    [asin] => B00G6I66SK
+    [commodity] => ASTVTE(アスチュート) スカイライト ブイティー SKYLITE VT A-SLTVT-BB ブラック/レッド ブラック
+    [ranking] => 4944
+    [weight] => 445 g
+    [dimensions] => 
+    [shipping] => 2085
+    [price_us] => 295.38
+    [price_us_prime] => 295.38
+    [prices_3_us] => 274.60:0:20.78;295.88:0:0;295.88:0:0
+    [amazon_prime] => 1
+    [price_jp] => 25100
+    [price_jp_prime] => 25880
+    [prices_3_jp] => 25100:0:0;25880:1:0;30520:0:0
+    [days_to_ship] => 
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 5238.992601
+    [expected_profit] => 2502.624739
+    [num_of_sellers] => 16
+    [release_date] => 2013/10/25
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,自転車,自転車アクセサリー,自転車カバー','https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg','https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg','B00G6I66SK','ASTVTE(アスチュート) スカイライト ブイティー SKYLITE VT A-SLTVT-BB ブラック/レッド ブラック','4944','445 g','','2085','295.38','295.38','274.60:0:20.78;295.88:0:0;295.88:0:0','1','25100','25880','25100:0:0;25880:1:0;30520:0:0','','PRIME','5238.992601','2502.624739','16','2013/10/25') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,自転車,自転車アクセサリー,自転車カバー',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41BTfQuwzHL.jpg',asin = 'B00G6I66SK',commodity = 'ASTVTE(アスチュート) スカイライト ブイティー SKYLITE VT A-SLTVT-BB ブラック/レッド ブラック',ranking = '4944',weight = '445 g',dimensions = '',shipping = '2085',price_us = '295.38',price_us_prime = '295.38',prices_3_us = '274.60:0:20.78;295.88:0:0;295.88:0:0',amazon_prime = '1',price_jp = '25100',price_jp_prime = '25880',prices_3_jp = '25100:0:0;25880:1:0;30520:0:0',days_to_ship = '',days_to_ship_prime = 'PRIME',amazon_commission = '5238.992601',expected_profit = '2502.624739',num_of_sellers = '16',release_date = '2013/10/25'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50205017169
+                    [FeedType] => _POST_INVENTORY_AVAILABILITY_DATA_
+                    [SubmittedDate] => 2017-01-03T12:47:44+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 5093e261-4f16-422b-8e6e-58431f990047
+        )
+
+)
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50206017169
+                    [FeedType] => _POST_PRODUCT_PRICING_DATA_
+                    [SubmittedDate] => 2017-01-03T12:47:45+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 56774605-2ebd-494a-9a00-d97312ff054c
+        )
+
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => 文房具・オフィス用品,ノート・メモ帳,ノート
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg
+    [asin] => B0074IG2V2
+    [commodity] => コクヨ キャンパスノート　Ｂ６　Ａ罫７ｍｍ　４０枚×２０冊
+    [ranking] => 1343051
+    [weight] => 
+    [dimensions] => 7.1 x 5.1 x 3.1 inches
+    [shipping] => 1500
+    [price_us] => 52.91
+    [price_us_prime] => 52.91
+    [prices_3_us] => 52.91:0:0;53.35:0:0
+    [amazon_prime] => 1
+    [price_jp] => 1760
+    [price_jp_prime] => 1760
+    [prices_3_jp] => 1760:0:0;1462:0:490;1491:0:540
+    [days_to_ship] => 
+    [days_to_ship_prime] => 
+    [amazon_commission] => 938.4355695
+    [expected_profit] => 2057.8015605
+    [num_of_sellers] => 2
+    [release_date] => 2011/2/21
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('文房具・オフィス用品,ノート・メモ帳,ノート','https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg','https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg','B0074IG2V2','コクヨ キャンパスノート　Ｂ６　Ａ罫７ｍｍ　４０枚×２０冊','1343051','','7.1 x 5.1 x 3.1 inches','1500','52.91','52.91','52.91:0:0;53.35:0:0','1','1760','1760','1760:0:0;1462:0:490;1491:0:540','','','938.4355695','2057.8015605','2','2011/2/21') ON DUPLICATE KEY UPDATE category = '文房具・オフィス用品,ノート・メモ帳,ノート',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41ZkTF1G0JL.jpg',asin = 'B0074IG2V2',commodity = 'コクヨ キャンパスノート　Ｂ６　Ａ罫７ｍｍ　４０枚×２０冊',ranking = '1343051',weight = '',dimensions = '7.1 x 5.1 x 3.1 inches',shipping = '1500',price_us = '52.91',price_us_prime = '52.91',prices_3_us = '52.91:0:0;53.35:0:0',amazon_prime = '1',price_jp = '1760',price_jp_prime = '1760',prices_3_jp = '1760:0:0;1462:0:490;1491:0:540',days_to_ship = '',days_to_ship_prime = '',amazon_commission = '938.4355695',expected_profit = '2057.8015605',num_of_sellers = '2',release_date = '2011/2/21'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50207017169
+                    [FeedType] => _POST_INVENTORY_AVAILABILITY_DATA_
+                    [SubmittedDate] => 2017-01-03T12:48:22+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => ebd44efb-33d2-440e-ab01-808ede89c6bf
+        )
+
+)
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50208017169
+                    [FeedType] => _POST_PRODUCT_PRICING_DATA_
+                    [SubmittedDate] => 2017-01-03T12:48:23+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 3347a588-2648-4ca6-8e47-442c6806bea7
+        )
+
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => パソコン・周辺機器,PCアクセサリ・サプライ,モニタアクセサリ,モニタアームスタンド
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg
+    [asin] => B006PYJD44
+    [commodity] => ヒューレット・パッカード HP シングルモニターアーム BT861AA
+    [ranking] => 2587
+    [weight] => 6 Kg
+    [dimensions] => 18.1 x 10.7 x 6.8 inches
+    [shipping] => 11700
+    [price_us] => 226.8
+    [price_us_prime] => 226.8
+    [prices_3_us] => 112.22:0:114.58;230.23:0:0;230.39:0:0
+    [amazon_prime] => 1
+    [price_jp] => 10446
+    [price_jp_prime] => 11860
+    [prices_3_jp] => 10446:0:0;10576:0:0;11456:0:0
+    [days_to_ship] => 1/13〜22
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 4022.62686
+    [expected_profit] => 648.88554
+    [num_of_sellers] => 30
+    [release_date] => 2012/3/8
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('パソコン・周辺機器,PCアクセサリ・サプライ,モニタアクセサリ,モニタアームスタンド','https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg','https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg','B006PYJD44','ヒューレット・パッカード HP シングルモニターアーム BT861AA','2587','6 Kg','18.1 x 10.7 x 6.8 inches','11700','226.8','226.8','112.22:0:114.58;230.23:0:0;230.39:0:0','1','10446','11860','10446:0:0;10576:0:0;11456:0:0','1/13〜22','PRIME','4022.62686','648.88554','30','2012/3/8') ON DUPLICATE KEY UPDATE category = 'パソコン・周辺機器,PCアクセサリ・サプライ,モニタアクセサリ,モニタアームスタンド',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31CNJYZmxEL.jpg',asin = 'B006PYJD44',commodity = 'ヒューレット・パッカード HP シングルモニターアーム BT861AA',ranking = '2587',weight = '6 Kg',dimensions = '18.1 x 10.7 x 6.8 inches',shipping = '11700',price_us = '226.8',price_us_prime = '226.8',prices_3_us = '112.22:0:114.58;230.23:0:0;230.39:0:0',amazon_prime = '1',price_jp = '10446',price_jp_prime = '11860',prices_3_jp = '10446:0:0;10576:0:0;11456:0:0',days_to_ship = '1/13〜22',days_to_ship_prime = 'PRIME',amazon_commission = '4022.62686',expected_profit = '648.88554',num_of_sellers = '30',release_date = '2012/3/8'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50209017169
+                    [FeedType] => _POST_INVENTORY_AVAILABILITY_DATA_
+                    [SubmittedDate] => 2017-01-03T12:49:42+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => ac931980-46d4-44e8-9940-cdd96b83816c
+        )
+
+)
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50210017169
+                    [FeedType] => _POST_PRODUCT_PRICING_DATA_
+                    [SubmittedDate] => 2017-01-03T12:49:43+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 5e5c042c-8a4c-4018-9d98-52cd30e15f57
+        )
+
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => おもちゃ,仮面ライダー
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg
+    [asin] => B00CQ4AR9M
+    [commodity] => 仮面ライダーシリーズ ワールドコレクタブルフィギュアvol.16 KR121：仮面ライダーウィザード ウォータードラゴン バンプレスト プライズ
+    [ranking] => 
+    [weight] => 
+    [dimensions] => 
+    [shipping] => 1500
+    [price_us] => 191.44
+    [price_us_prime] => 191.44
+    [prices_3_us] => 191.44:0:0;191.94:0:0
+    [amazon_prime] => 1
+    [price_jp] => 850
+    [price_jp_prime] => 850
+    [prices_3_jp] => 500:0:350;350:0:500;600:0:500
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 3395.465988
+    [expected_profit] => 16890.973932
+    [num_of_sellers] => 2
+    [release_date] => 2013/5/11
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('おもちゃ,仮面ライダー','https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg','https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg','B00CQ4AR9M','仮面ライダーシリーズ ワールドコレクタブルフィギュアvol.16 KR121：仮面ライダーウィザード ウォータードラゴン バンプレスト プライズ','','','','1500','191.44','191.44','191.44:0:0;191.94:0:0','1','850','850','500:0:350;350:0:500;600:0:500','1/5〜10','','3395.465988','16890.973932','2','2013/5/11') ON DUPLICATE KEY UPDATE category = 'おもちゃ,仮面ライダー',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/2120mff5oYL.jpg',asin = 'B00CQ4AR9M',commodity = '仮面ライダーシリーズ ワールドコレクタブルフィギュアvol.16 KR121：仮面ライダーウィザード ウォータードラゴン バンプレスト プライズ',ranking = '',weight = '',dimensions = '',shipping = '1500',price_us = '191.44',price_us_prime = '191.44',prices_3_us = '191.44:0:0;191.94:0:0',amazon_prime = '1',price_jp = '850',price_jp_prime = '850',prices_3_jp = '500:0:350;350:0:500;600:0:500',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '3395.465988',expected_profit = '16890.973932',num_of_sellers = '2',release_date = '2013/5/11'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50211017169
+                    [FeedType] => _POST_INVENTORY_AVAILABILITY_DATA_
+                    [SubmittedDate] => 2017-01-03T12:50:21+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => 16429748-d0c7-4e42-afe8-b6a24876f79d
+        )
+
+)
+<PRE>SimpleXMLElement Object
+(
+    [SubmitFeedResult] => SimpleXMLElement Object
+        (
+            [FeedSubmissionInfo] => SimpleXMLElement Object
+                (
+                    [FeedSubmissionId] => 50212017169
+                    [FeedType] => _POST_PRODUCT_PRICING_DATA_
+                    [SubmittedDate] => 2017-01-03T12:50:22+00:00
+                    [FeedProcessingStatus] => _SUBMITTED_
+                )
+
+        )
+
+    [ResponseMetadata] => SimpleXMLElement Object
+        (
+            [RequestId] => a4efbf6c-e40b-46ee-b802-e040b350c485
+        )
+
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,釣り,リール,ベイトリール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg
+    [asin] => B01IOOGTWG
+    [commodity] => ダイワ(Daiwa) リール タトゥーラ CT タイプR 100H
+    [ranking] => 
+    [weight] => 249 g
+    [dimensions] => 
+    [shipping] => 1785
+    [price_us] => 317.17
+    [price_us_prime] => 317.17
+    [prices_3_us] => 317.17:0:0;317.17:0:0;317.17:0:0
+    [amazon_prime] => 1
+    [price_jp] => 16083
+    [price_jp_prime] => 16083
+    [prices_3_jp] => 16083:1:0;18899:0:0;18900:0:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 5625.4698465
+    [expected_profit] => 14009.6624635
+    [num_of_sellers] => 14
+    [release_date] => 2016/7/26
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,釣り,リール,ベイトリール','https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg','https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg','B01IOOGTWG','ダイワ(Daiwa) リール タトゥーラ CT タイプR 100H','','249 g','','1785','317.17','317.17','317.17:0:0;317.17:0:0;317.17:0:0','1','16083','16083','16083:1:0;18899:0:0;18900:0:0','PRIME','PRIME','5625.4698465','14009.6624635','14','2016/7/26') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,釣り,リール,ベイトリール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51M2Rap7GvL.jpg',asin = 'B01IOOGTWG',commodity = 'ダイワ(Daiwa) リール タトゥーラ CT タイプR 100H',ranking = '',weight = '249 g',dimensions = '',shipping = '1785',price_us = '317.17',price_us_prime = '317.17',prices_3_us = '317.17:0:0;317.17:0:0;317.17:0:0',amazon_prime = '1',price_jp = '16083',price_jp_prime = '16083',prices_3_jp = '16083:1:0;18899:0:0;18900:0:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '5625.4698465',expected_profit = '14009.6624635',num_of_sellers = '14',release_date = '2016/7/26'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 922c3a9d-ed8b-448f-82d2-a45082d9f600
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 2ff27861-50b2-4af3-b77a-135c346a6e06
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,釣り,リール,ベイトリール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg
+    [asin] => B01IOOGRQO
+    [commodity] => ダイワ(Daiwa) リール タトゥーラ CT タイプR 100XS
+    [ranking] => 
+    [weight] => 272 g
+    [dimensions] => 
+    [shipping] => 1785
+    [price_us] => 302.98
+    [price_us_prime] => 302.98
+    [prices_3_us] => 302.98:0:0;302.98:0:0;302.98:0:0
+    [amazon_prime] => 1
+    [price_jp] => 16669
+    [price_jp_prime] => 16669
+    [prices_3_jp] => 16669:1:0;18813:0:0;18900:0:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 5373.789621
+    [expected_profit] => 11997.474519
+    [num_of_sellers] => 17
+    [release_date] => 2016/7/26
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,釣り,リール,ベイトリール','https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg','https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg','B01IOOGRQO','ダイワ(Daiwa) リール タトゥーラ CT タイプR 100XS','','272 g','','1785','302.98','302.98','302.98:0:0;302.98:0:0;302.98:0:0','1','16669','16669','16669:1:0;18813:0:0;18900:0:0','PRIME','PRIME','5373.789621','11997.474519','17','2016/7/26') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,釣り,リール,ベイトリール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41lcSM5lc3L.jpg',asin = 'B01IOOGRQO',commodity = 'ダイワ(Daiwa) リール タトゥーラ CT タイプR 100XS',ranking = '',weight = '272 g',dimensions = '',shipping = '1785',price_us = '302.98',price_us_prime = '302.98',prices_3_us = '302.98:0:0;302.98:0:0;302.98:0:0',amazon_prime = '1',price_jp = '16669',price_jp_prime = '16669',prices_3_jp = '16669:1:0;18813:0:0;18900:0:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '5373.789621',expected_profit = '11997.474519',num_of_sellers = '17',release_date = '2016/7/26'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 66924d8f-d3ca-4053-bb0d-d0336c23fc54
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 3e042ca6-0714-44af-ab56-8bfe2d36aee5
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,家電,生活家電,掃除機,高圧洗浄機
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg
+    [asin] => B00UBJT13W
+    [commodity] => KARCHER(ケルヒャー) 高圧洗浄器 【洗剤タンク付き ・ コンパクト】 K2クラシックプラス K2CP
+    [ranking] => 
+    [weight] => 5 Kg
+    [dimensions] => 16.3 x 11.5 x 8 inches
+    [shipping] => 9900
+    [price_us] => 82.54
+    [price_us_prime] => 82.54
+    [prices_3_us] => 82.54:0:0;204.07:0:0;206.32:0:0
+    [amazon_prime] => 1
+    [price_jp] => 8858
+    [price_jp_prime] => 8858
+    [prices_3_jp] => 8858:1:0;9555:0:0;9732:0:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 1463.966583
+    [expected_profit] => -10462.189363
+    [num_of_sellers] => 11
+    [release_date] => 
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,家電,生活家電,掃除機,高圧洗浄機','https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg','https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg','B00UBJT13W','KARCHER(ケルヒャー) 高圧洗浄器 【洗剤タンク付き ・ コンパクト】 K2クラシックプラス K2CP','','5 Kg','16.3 x 11.5 x 8 inches','9900','82.54','82.54','82.54:0:0;204.07:0:0;206.32:0:0','1','8858','8858','8858:1:0;9555:0:0;9732:0:0','PRIME','PRIME','1463.966583','-10462.189363','11','') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,家電,生活家電,掃除機,高圧洗浄機',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41X4uCpxTIL.jpg',asin = 'B00UBJT13W',commodity = 'KARCHER(ケルヒャー) 高圧洗浄器 【洗剤タンク付き ・ コンパクト】 K2クラシックプラス K2CP',ranking = '',weight = '5 Kg',dimensions = '16.3 x 11.5 x 8 inches',shipping = '9900',price_us = '82.54',price_us_prime = '82.54',prices_3_us = '82.54:0:0;204.07:0:0;206.32:0:0',amazon_prime = '1',price_jp = '8858',price_jp_prime = '8858',prices_3_jp = '8858:1:0;9555:0:0;9732:0:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '1463.966583',expected_profit = '-10462.189363',num_of_sellers = '11',release_date = ''PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => a3f44497-df20-4ff3-a25b-ec41aab590ac
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 869eea61-a6bd-4ea7-be10-66f3330cc074
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg
+    [asin] => B01M4KKX4R
+    [commodity] => 曲げわっぱ　小判二段入子弁当箱　漆塗り
+    [ranking] => 
+    [weight] => 
+    [dimensions] => 
+    [shipping] => 1500
+    [price_us] => 52.49
+    [price_us_prime] => 52.49
+    [prices_3_us] => 48.00:0:4.49;52.99:0:0
+    [amazon_prime] => 1
+    [price_jp] => 2540
+    [price_jp_prime] => 2540
+    [prices_3_jp] => 2200:0:340;2140:0:400;2240:0:300
+    [days_to_ship] => 1/5〜18
+    [days_to_ship_prime] => 
+    [amazon_commission] => 930.9862605
+    [expected_profit] => 1235.5888095
+    [num_of_sellers] => 2
+    [release_date] => 
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱','https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg','https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg','B01M4KKX4R','曲げわっぱ　小判二段入子弁当箱　漆塗り','','','','1500','52.49','52.49','48.00:0:4.49;52.99:0:0','1','2540','2540','2200:0:340;2140:0:400;2240:0:300','1/5〜18','','930.9862605','1235.5888095','2','') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/410chQVdDuL.jpg',asin = 'B01M4KKX4R',commodity = '曲げわっぱ　小判二段入子弁当箱　漆塗り',ranking = '',weight = '',dimensions = '',shipping = '1500',price_us = '52.49',price_us_prime = '52.49',prices_3_us = '48.00:0:4.49;52.99:0:0',amazon_prime = '1',price_jp = '2540',price_jp_prime = '2540',prices_3_jp = '2200:0:340;2140:0:400;2240:0:300',days_to_ship = '1/5〜18',days_to_ship_prime = '',amazon_commission = '930.9862605',expected_profit = '1235.5888095',num_of_sellers = '2',release_date = ''PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 2311702c-02a8-4818-906a-1eb1bc7ccec1
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 69226c8a-d9e4-4f1f-8938-d2603f659a05
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => ゲーム,PS Vita,周辺機器・アクセサリ
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg
+    [asin] => B00HS9C3Q0
+    [commodity] => CYBER ・ ラバーコートグリップ ( PCH-2000 用) ブラック
+    [ranking] => 
+    [weight] => 145 g
+    [dimensions] => 10.9 x 6.3 x 2 inches; 5.1 ounces
+    [shipping] => 1635
+    [price_us] => 26.21
+    [price_us_prime] => 26.22
+    [prices_3_us] => 26.21:0:0;26.21:0:0;26.22:1:0
+    [amazon_prime] => 1
+    [price_jp] => 2970
+    [price_jp_prime] => 2970
+    [prices_3_jp] => 2970:1:0;2974:1:0;2978:1:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 464.8723545
+    [expected_profit] => -1970.7233245
+    [num_of_sellers] => 24
+    [release_date] =>  2014/2/11
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ゲーム,PS Vita,周辺機器・アクセサリ','https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg','https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg','B00HS9C3Q0','CYBER ・ ラバーコートグリップ ( PCH-2000 用) ブラック','','145 g','10.9 x 6.3 x 2 inches; 5.1 ounces','1635','26.21','26.22','26.21:0:0;26.21:0:0;26.22:1:0','1','2970','2970','2970:1:0;2974:1:0;2978:1:0','PRIME','PRIME','464.8723545','-1970.7233245','24',' 2014/2/11') ON DUPLICATE KEY UPDATE category = 'ゲーム,PS Vita,周辺機器・アクセサリ',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51ouJjuGqSL.jpg',asin = 'B00HS9C3Q0',commodity = 'CYBER ・ ラバーコートグリップ ( PCH-2000 用) ブラック',ranking = '',weight = '145 g',dimensions = '10.9 x 6.3 x 2 inches; 5.1 ounces',shipping = '1635',price_us = '26.21',price_us_prime = '26.22',prices_3_us = '26.21:0:0;26.21:0:0;26.22:1:0',amazon_prime = '1',price_jp = '2970',price_jp_prime = '2970',prices_3_jp = '2970:1:0;2974:1:0;2978:1:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '464.8723545',expected_profit = '-1970.7233245',num_of_sellers = '24',release_date = ' 2014/2/11'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 4e005940-a23f-4198-b14b-8d570476fb88
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 58708610-ef7e-4abb-b552-e577f231ece9
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => ゲーム,PS Vita,周辺機器・アクセサリ,メモリーカード
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg
+    [asin] => B005N4HZRO
+    [commodity] => PlayStation Vita メモリーカード 8GB (PCH-Z081J)
+    [ranking] => 485
+    [weight] => 91 g
+    [dimensions] => 4.9 x 3.9 x 0.2 inches; 3.2 ounces
+    [shipping] => 1485
+    [price_us] => 23.6
+    [price_us_prime] => 23.6
+    [prices_3_us] => 23.60:1:0;23.60:1:0;23.60:1:0
+    [amazon_prime] => 1
+    [price_jp] => 3230
+    [price_jp_prime] => 3280
+    [prices_3_jp] => 2890:0:340;2890:0:350;3280:1:0
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 418.58022
+    [expected_profit] => -2343.04542
+    [num_of_sellers] => 82
+    [release_date] =>  2011/12/17
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ゲーム,PS Vita,周辺機器・アクセサリ,メモリーカード','https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg','https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg','B005N4HZRO','PlayStation Vita メモリーカード 8GB (PCH-Z081J)','485','91 g','4.9 x 3.9 x 0.2 inches; 3.2 ounces','1485','23.6','23.6','23.60:1:0;23.60:1:0;23.60:1:0','1','3230','3280','2890:0:340;2890:0:350;3280:1:0','1/5〜10','PRIME','418.58022','-2343.04542','82',' 2011/12/17') ON DUPLICATE KEY UPDATE category = 'ゲーム,PS Vita,周辺機器・アクセサリ,メモリーカード',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51pJbQPtndL.jpg',asin = 'B005N4HZRO',commodity = 'PlayStation Vita メモリーカード 8GB (PCH-Z081J)',ranking = '485',weight = '91 g',dimensions = '4.9 x 3.9 x 0.2 inches; 3.2 ounces',shipping = '1485',price_us = '23.6',price_us_prime = '23.6',prices_3_us = '23.60:1:0;23.60:1:0;23.60:1:0',amazon_prime = '1',price_jp = '3230',price_jp_prime = '3280',prices_3_jp = '2890:0:340;2890:0:350;3280:1:0',days_to_ship = '1/5〜10',days_to_ship_prime = 'PRIME',amazon_commission = '418.58022',expected_profit = '-2343.04542',num_of_sellers = '82',release_date = ' 2011/12/17'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 91bcd7e4-01b2-46e2-a06a-87d9758e509c
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 3e41f515-29a5-4a27-b299-9e2c362d6740
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg
+    [asin] => B003N63MVC
+    [commodity] => SALUS あったかいお弁当箱 ランチミディ パールホワイト
+    [ranking] => 
+    [weight] => 544 g
+    [dimensions] => 6.3 x 5 x 4.6 inches
+    [shipping] => 2385
+    [price_us] => 293.18
+    [price_us_prime] => 293.18
+    [prices_3_us] => 293.18:0:0;293.18:0:0;293.18:0:0
+    [amazon_prime] => 1
+    [price_jp] => 3408
+    [price_jp_prime] => 3408
+    [prices_3_jp] => 3408:1:0;58428:0:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 5199.972411
+    [expected_profit] => 23673.510329
+    [num_of_sellers] => 5
+    [release_date] => 2010/5/21
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱','https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg','https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg','B003N63MVC','SALUS あったかいお弁当箱 ランチミディ パールホワイト','','544 g','6.3 x 5 x 4.6 inches','2385','293.18','293.18','293.18:0:0;293.18:0:0;293.18:0:0','1','3408','3408','3408:1:0;58428:0:0','PRIME','PRIME','5199.972411','23673.510329','5','2010/5/21') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31%2BVTydQKaL.jpg',asin = 'B003N63MVC',commodity = 'SALUS あったかいお弁当箱 ランチミディ パールホワイト',ranking = '',weight = '544 g',dimensions = '6.3 x 5 x 4.6 inches',shipping = '2385',price_us = '293.18',price_us_prime = '293.18',prices_3_us = '293.18:0:0;293.18:0:0;293.18:0:0',amazon_prime = '1',price_jp = '3408',price_jp_prime = '3408',prices_3_jp = '3408:1:0;58428:0:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '5199.972411',expected_profit = '23673.510329',num_of_sellers = '5',release_date = '2010/5/21'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => be8730ff-0da0-410c-94e8-3bfc0c26a040
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => c63ced1a-dc03-449b-b72b-8945ebe02ff8
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => 文房具・オフィス用品,筆記具,製図用品
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg
+    [asin] => B001VB350O
+    [commodity] => ウチダ 英型製図器 烏口 双頭曲線引 HC 1-713-1401
+    [ranking] => 
+    [weight] => 23 g
+    [dimensions] => 5.9 x 1.3 x 0.7 inches
+    [shipping] => 1485
+    [price_us] => 895.58
+    [price_us_prime] => 895.58
+    [prices_3_us] => 895.58:0:0;895.58:0:0
+    [amazon_prime] => 1
+    [price_jp] => 18288
+    [price_jp_prime] => 18288
+    [prices_3_jp] => 18288:1:0;188927:0:340
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 15884.409891
+    [expected_profit] => 70238.656049
+    [num_of_sellers] => 4
+    [release_date] => 
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('文房具・オフィス用品,筆記具,製図用品','https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg','https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg','B001VB350O','ウチダ 英型製図器 烏口 双頭曲線引 HC 1-713-1401','','23 g','5.9 x 1.3 x 0.7 inches','1485','895.58','895.58','895.58:0:0;895.58:0:0','1','18288','18288','18288:1:0;188927:0:340','PRIME','PRIME','15884.409891','70238.656049','4','') ON DUPLICATE KEY UPDATE category = '文房具・オフィス用品,筆記具,製図用品',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31DWxp3yQBL.jpg',asin = 'B001VB350O',commodity = 'ウチダ 英型製図器 烏口 双頭曲線引 HC 1-713-1401',ranking = '',weight = '23 g',dimensions = '5.9 x 1.3 x 0.7 inches',shipping = '1485',price_us = '895.58',price_us_prime = '895.58',prices_3_us = '895.58:0:0;895.58:0:0',amazon_prime = '1',price_jp = '18288',price_jp_prime = '18288',prices_3_jp = '18288:1:0;188927:0:340',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '15884.409891',expected_profit = '70238.656049',num_of_sellers = '4',release_date = ''PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 49a3e420-eeda-4b38-abf8-10656687372c
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => b4a74bd3-695a-4155-aad0-542cd9d6d373
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホビー,フィギュア・コレクタードール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg
+    [asin] => B00E1C3078
+    [commodity] => カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】木彫風彩色 松明丸 単品
+    [ranking] => 
+    [weight] => 
+    [dimensions] => 
+    [shipping] => 1500
+    [price_us] => 379.01
+    [price_us_prime] => 379.01
+    [prices_3_us] => 379.01:0:0;379.01:0:0
+    [amazon_prime] => 1
+    [price_jp] => 600
+    [price_jp_prime] => 600
+    [prices_3_jp] => 600:0:0;610:0:0;106:0:514
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 6722.2919145
+    [expected_profit] => 35992.9875155
+    [num_of_sellers] => 2
+    [release_date] => 
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホビー,フィギュア・コレクタードール','https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg','https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg','B00E1C3078','カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】木彫風彩色 松明丸 単品','','','','1500','379.01','379.01','379.01:0:0;379.01:0:0','1','600','600','600:0:0;610:0:0;106:0:514','1/5〜10','','6722.2919145','35992.9875155','2','') ON DUPLICATE KEY UPDATE category = 'ホビー,フィギュア・コレクタードール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31owtoXudAL.jpg',asin = 'B00E1C3078',commodity = 'カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】木彫風彩色 松明丸 単品',ranking = '',weight = '',dimensions = '',shipping = '1500',price_us = '379.01',price_us_prime = '379.01',prices_3_us = '379.01:0:0;379.01:0:0',amazon_prime = '1',price_jp = '600',price_jp_prime = '600',prices_3_jp = '600:0:0;610:0:0;106:0:514',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '6722.2919145',expected_profit = '35992.9875155',num_of_sellers = '2',release_date = ''PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 26d849c1-3e86-4bc9-b262-b6bf7beb1d5d
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 984cec8b-8b76-48cd-924a-417cdcf0ec54
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホビー,フィギュア・コレクタードール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg
+    [asin] => B00E1C305K
+    [commodity] => カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】フル彩色 松明丸 単品
+    [ranking] => 
+    [weight] => 
+    [dimensions] => 
+    [shipping] => 1500
+    [price_us] => 639.01
+    [price_us_prime] => 639.01
+    [prices_3_us] => 639.01:0:0;639.01:0:0
+    [amazon_prime] => 1
+    [price_jp] => 960
+    [price_jp_prime] => 960
+    [prices_3_jp] => 960:0:0;970:0:0;466:0:514
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 11333.7689145
+    [expected_profit] => 61764.6905155
+    [num_of_sellers] => 2
+    [release_date] => 
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホビー,フィギュア・コレクタードール','https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg','https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg','B00E1C305K','カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】フル彩色 松明丸 単品','','','','1500','639.01','639.01','639.01:0:0;639.01:0:0','1','960','960','960:0:0;970:0:0;466:0:514','1/5〜10','','11333.7689145','61764.6905155','2','') ON DUPLICATE KEY UPDATE category = 'ホビー,フィギュア・コレクタードール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31ZbVzg3fEL.jpg',asin = 'B00E1C305K',commodity = 'カプセルQミュージアム 竹谷工房謹製 妖怪根付2【立体図百鬼夜行】フル彩色 松明丸 単品',ranking = '',weight = '',dimensions = '',shipping = '1500',price_us = '639.01',price_us_prime = '639.01',prices_3_us = '639.01:0:0;639.01:0:0',amazon_prime = '1',price_jp = '960',price_jp_prime = '960',prices_3_jp = '960:0:0;970:0:0;466:0:514',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '11333.7689145',expected_profit = '61764.6905155',num_of_sellers = '2',release_date = ''PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 62c233f0-6759-43a2-a682-a9074115bd9d
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 54458b85-d81d-47f0-a932-b98f1ea3a6aa
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => 文房具・オフィス用品,事務用品,机上用品・文具収納,デスクマット
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg
+    [asin] => B005J0WJU0
+    [commodity] => ライオン事務器 デスクマット 非転写コート 450×300mm SN グリーンマット付
+    [ranking] => 
+    [weight] => 308 g
+    [dimensions] => 
+    [shipping] => 1935
+    [price_us] => 68.99
+    [price_us_prime] => 68.99
+    [prices_3_us] => 68.99:0:0;68.99:0:0;68.99:0:0
+    [amazon_prime] => 1
+    [price_jp] => 1200
+    [price_jp_prime] => 1200
+    [prices_3_jp] => 1200:1:0;1599:0:0;1715:0:700
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 1223.6376855
+    [expected_profit] => 3798.9468845
+    [num_of_sellers] => 11
+    [release_date] => 2011/8/25
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('文房具・オフィス用品,事務用品,机上用品・文具収納,デスクマット','https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg','https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg','B005J0WJU0','ライオン事務器 デスクマット 非転写コート 450×300mm SN グリーンマット付','','308 g','','1935','68.99','68.99','68.99:0:0;68.99:0:0;68.99:0:0','1','1200','1200','1200:1:0;1599:0:0;1715:0:700','PRIME','PRIME','1223.6376855','3798.9468845','11','2011/8/25') ON DUPLICATE KEY UPDATE category = '文房具・オフィス用品,事務用品,机上用品・文具収納,デスクマット',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51%2BwC5tjTZL.jpg',asin = 'B005J0WJU0',commodity = 'ライオン事務器 デスクマット 非転写コート 450×300mm SN グリーンマット付',ranking = '',weight = '308 g',dimensions = '',shipping = '1935',price_us = '68.99',price_us_prime = '68.99',prices_3_us = '68.99:0:0;68.99:0:0;68.99:0:0',amazon_prime = '1',price_jp = '1200',price_jp_prime = '1200',prices_3_jp = '1200:1:0;1599:0:0;1715:0:700',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '1223.6376855',expected_profit = '3798.9468845',num_of_sellers = '11',release_date = '2011/8/25'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 2e8654f8-7650-48cf-8967-37f04cd6062d
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => dbf0e19a-ce35-4dca-b6e4-598203777ea6
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => 産業・研究開発用品,物流・保管用品,物流コンテナ
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg
+    [asin] => B0026FNWB6
+    [commodity] => 積水 T型コンテナ T-40 灰 T40
+    [ranking] => 
+    [weight] => 2 Kg
+    [dimensions] => 18.9 x 14.5 x 12 inches
+    [shipping] => 5700
+    [price_us] => 126.87
+    [price_us_prime] => 126.87
+    [prices_3_us] => 126.87:0:0;126.87:0:0;126.89:0:0
+    [amazon_prime] => 1
+    [price_jp] => 4309
+    [price_jp_prime] => 4309
+    [prices_3_jp] => 4309:1:0;4520:0:0;4115:0:540
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 2250.2234115
+    [expected_profit] => 2742.2659985
+    [num_of_sellers] => 3
+    [release_date] => 2009/4/13
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('産業・研究開発用品,物流・保管用品,物流コンテナ','https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg','https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg','B0026FNWB6','積水 T型コンテナ T-40 灰 T40','','2 Kg','18.9 x 14.5 x 12 inches','5700','126.87','126.87','126.87:0:0;126.87:0:0;126.89:0:0','1','4309','4309','4309:1:0;4520:0:0;4115:0:540','PRIME','PRIME','2250.2234115','2742.2659985','3','2009/4/13') ON DUPLICATE KEY UPDATE category = '産業・研究開発用品,物流・保管用品,物流コンテナ',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/21joxKT3SiL.jpg',asin = 'B0026FNWB6',commodity = '積水 T型コンテナ T-40 灰 T40',ranking = '',weight = '2 Kg',dimensions = '18.9 x 14.5 x 12 inches',shipping = '5700',price_us = '126.87',price_us_prime = '126.87',prices_3_us = '126.87:0:0;126.87:0:0;126.89:0:0',amazon_prime = '1',price_jp = '4309',price_jp_prime = '4309',prices_3_jp = '4309:1:0;4520:0:0;4115:0:540',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '2250.2234115',expected_profit = '2742.2659985',num_of_sellers = '3',release_date = '2009/4/13'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 4bd95778-baf3-42d3-8986-da06fa96bbb9
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 8b4ebd5f-bc1b-45b6-806a-a16c8d3022ba
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => パソコン・周辺機器,PCアクセサリ・サプライ,ケーブル,USBケーブル
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg
+    [asin] => B00FF086HE
+    [commodity] => SONY NW-ZX2/ZX1/A10/F880シリーズ専用ハイレゾ・オーディオ出力用USB変換ケーブル WMC-NWH10 WMC-NWH10M
+    [ranking] => 232273
+    [weight] => 82 g
+    [dimensions] => 8.6 x 3.7 x 1 inches
+    [shipping] => 1485
+    [price_us] => 34.3
+    [price_us_prime] => 34.3
+    [prices_3_us] => 34.30:1:0;34.30:1:0;34.30:1:0
+    [amazon_prime] => 1
+    [price_jp] => 3000
+    [price_jp_prime] => 3000
+    [prices_3_jp] => 3000:0:0;3092:0:0;3153:0:0
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 608.360235
+    [expected_profit] => -1037.625335
+    [num_of_sellers] => 22
+    [release_date] => 2013/9/25
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('パソコン・周辺機器,PCアクセサリ・サプライ,ケーブル,USBケーブル','https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg','https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg','B00FF086HE','SONY NW-ZX2/ZX1/A10/F880シリーズ専用ハイレゾ・オーディオ出力用USB変換ケーブル WMC-NWH10 WMC-NWH10M','232273','82 g','8.6 x 3.7 x 1 inches','1485','34.3','34.3','34.30:1:0;34.30:1:0;34.30:1:0','1','3000','3000','3000:0:0;3092:0:0;3153:0:0','1/5〜10','','608.360235','-1037.625335','22','2013/9/25') ON DUPLICATE KEY UPDATE category = 'パソコン・周辺機器,PCアクセサリ・サプライ,ケーブル,USBケーブル',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/31ycQaUctqL.jpg',asin = 'B00FF086HE',commodity = 'SONY NW-ZX2/ZX1/A10/F880シリーズ専用ハイレゾ・オーディオ出力用USB変換ケーブル WMC-NWH10 WMC-NWH10M',ranking = '232273',weight = '82 g',dimensions = '8.6 x 3.7 x 1 inches',shipping = '1485',price_us = '34.3',price_us_prime = '34.3',prices_3_us = '34.30:1:0;34.30:1:0;34.30:1:0',amazon_prime = '1',price_jp = '3000',price_jp_prime = '3000',prices_3_jp = '3000:0:0;3092:0:0;3153:0:0',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '608.360235',expected_profit = '-1037.625335',num_of_sellers = '22',release_date = '2013/9/25'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 6bce0546-3692-4411-8fb0-2a180a97d5af
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => bf99584b-c09a-4a3e-ba8f-37961cef7853
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => 家電＆カメラ,ポータブルオーディオ,イヤホン・ヘッドホン
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg
+    [asin] => B00931SCO8
+    [commodity] => SONY カナル型イヤホン シルバー XBA-40/S
+    [ranking] => 5327
+    [weight] => 181 g
+    [dimensions] => 5.9 x 3.7 x 2 inches
+    [shipping] => 1635
+    [price_us] => 180.41
+    [price_us_prime] => 180.41
+    [prices_3_us] => 180.41:0:0;180.41:0:0;180.41:0:0
+    [amazon_prime] => 1
+    [price_jp] => 12700
+    [price_jp_prime] => 15000
+    [prices_3_jp] => 12700:0:0;12800:0:0;12800:0:0
+    [days_to_ship] => 
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 3199.8329445
+    [expected_profit] => 3797.3866855
+    [num_of_sellers] => 67
+    [release_date] => 2012/8/28
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('家電＆カメラ,ポータブルオーディオ,イヤホン・ヘッドホン','https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg','https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg','B00931SCO8','SONY カナル型イヤホン シルバー XBA-40/S','5327','181 g','5.9 x 3.7 x 2 inches','1635','180.41','180.41','180.41:0:0;180.41:0:0;180.41:0:0','1','12700','15000','12700:0:0;12800:0:0;12800:0:0','','PRIME','3199.8329445','3797.3866855','67','2012/8/28') ON DUPLICATE KEY UPDATE category = '家電＆カメラ,ポータブルオーディオ,イヤホン・ヘッドホン',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/3115bz8Vo3L.jpg',asin = 'B00931SCO8',commodity = 'SONY カナル型イヤホン シルバー XBA-40/S',ranking = '5327',weight = '181 g',dimensions = '5.9 x 3.7 x 2 inches',shipping = '1635',price_us = '180.41',price_us_prime = '180.41',prices_3_us = '180.41:0:0;180.41:0:0;180.41:0:0',amazon_prime = '1',price_jp = '12700',price_jp_prime = '15000',prices_3_jp = '12700:0:0;12800:0:0;12800:0:0',days_to_ship = '',days_to_ship_prime = 'PRIME',amazon_commission = '3199.8329445',expected_profit = '3797.3866855',num_of_sellers = '67',release_date = '2012/8/28'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 7149e16b-446f-4639-a29e-15085f2b9634
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => b5236e2b-af1e-4b75-a813-24613b64ba88
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホビー,プラモデル・模型,車・トラック
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg
+    [asin] => B0038L67KK
+    [commodity] => 青島文化教材社 1/24 ピックアップシリーズ No.15 トヨタ 80ハイラックス ビレットファントム プラモデル
+    [ranking] => 2332456
+    [weight] => 327 g
+    [dimensions] => 13 x 9.2 x 3 inches
+    [shipping] => 1935
+    [price_us] => 331.57
+    [price_us_prime] => 331.57
+    [prices_3_us] => 331.57:0:0;331.61:0:0;331.92:0:0
+    [amazon_prime] => 1
+    [price_jp] => 8580
+    [price_jp_prime] => 8580
+    [prices_3_jp] => 7980:0:600
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 5880.8747265
+    [expected_profit] => 22809.9567835
+    [num_of_sellers] => 3
+    [release_date] =>  2010/3/20
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホビー,プラモデル・模型,車・トラック','https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg','https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg','B0038L67KK','青島文化教材社 1/24 ピックアップシリーズ No.15 トヨタ 80ハイラックス ビレットファントム プラモデル','2332456','327 g','13 x 9.2 x 3 inches','1935','331.57','331.57','331.57:0:0;331.61:0:0;331.92:0:0','1','8580','8580','7980:0:600','1/5〜10','','5880.8747265','22809.9567835','3',' 2010/3/20') ON DUPLICATE KEY UPDATE category = 'ホビー,プラモデル・模型,車・トラック',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41WtaVR4bJL.jpg',asin = 'B0038L67KK',commodity = '青島文化教材社 1/24 ピックアップシリーズ No.15 トヨタ 80ハイラックス ビレットファントム プラモデル',ranking = '2332456',weight = '327 g',dimensions = '13 x 9.2 x 3 inches',shipping = '1935',price_us = '331.57',price_us_prime = '331.57',prices_3_us = '331.57:0:0;331.61:0:0;331.92:0:0',amazon_prime = '1',price_jp = '8580',price_jp_prime = '8580',prices_3_jp = '7980:0:600',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '5880.8747265',expected_profit = '22809.9567835',num_of_sellers = '3',release_date = ' 2010/3/20'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => dcdc0a8e-aca3-41bb-9704-7009eecd5c86
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 17bd607d-a6cb-4da7-82c2-951ff4530e70
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => おもちゃ,レゴジャパン
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg
+    [asin] => B000VXU362
+    [commodity] => レゴ (LEGO) キャッスル トロール突撃ワゴン 7038
+    [ranking] => 3112550
+    [weight] => 381 g
+    [dimensions] => 15.1 x 7.6 x 2.4 inches
+    [shipping] => 1935
+    [price_us] => 97.29
+    [price_us_prime] => 97.29
+    [prices_3_us] => 97.29:0:0;260.80:0:0;260.80:0:0
+    [amazon_prime] => 1
+    [price_jp] => 8094
+    [price_jp_prime] => 8094
+    [prices_3_jp] => 7580:0:514;19046:0:0;22464:0:0
+    [days_to_ship] => 1/5〜10
+    [days_to_ship_prime] => 
+    [amazon_commission] => 1725.5792205
+    [expected_profit] => -250.7177505
+    [num_of_sellers] => 4
+    [release_date] => 2007/7/3
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('おもちゃ,レゴジャパン','https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg','https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg','B000VXU362','レゴ (LEGO) キャッスル トロール突撃ワゴン 7038','3112550','381 g','15.1 x 7.6 x 2.4 inches','1935','97.29','97.29','97.29:0:0;260.80:0:0;260.80:0:0','1','8094','8094','7580:0:514;19046:0:0;22464:0:0','1/5〜10','','1725.5792205','-250.7177505','4','2007/7/3') ON DUPLICATE KEY UPDATE category = 'おもちゃ,レゴジャパン',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51kbDiyM-gL.jpg',asin = 'B000VXU362',commodity = 'レゴ (LEGO) キャッスル トロール突撃ワゴン 7038',ranking = '3112550',weight = '381 g',dimensions = '15.1 x 7.6 x 2.4 inches',shipping = '1935',price_us = '97.29',price_us_prime = '97.29',prices_3_us = '97.29:0:0;260.80:0:0;260.80:0:0',amazon_prime = '1',price_jp = '8094',price_jp_prime = '8094',prices_3_jp = '7580:0:514;19046:0:0;22464:0:0',days_to_ship = '1/5〜10',days_to_ship_prime = '',amazon_commission = '1725.5792205',expected_profit = '-250.7177505',num_of_sellers = '4',release_date = '2007/7/3'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 922c120f-addc-4c53-b0b3-a972b3ff407b
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => b590fba6-5cf8-4fe1-9786-dfeb08110a67
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,キッチン用品・食器,食器・グラス・カトラリー,マグカップ・ティーカップ,マグカップ
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg
+    [asin] => B0009I6LJM
+    [commodity] => 食楽工房 銅マグカップ 12オンス 360cc CNE-902
+    [ranking] => 993819
+    [weight] => 259 g
+    [dimensions] => 4.5 x 4.1 x 3.8 inches
+    [shipping] => 1785
+    [price_us] => 25.1
+    [price_us_prime] => 27
+    [prices_3_us] => 25.10:0:0;25.12:0:0;25.13:0:0
+    [amazon_prime] => 1
+    [price_jp] => 1891
+    [price_jp_prime] => 1891
+    [prices_3_jp] => 1891:1:0;2310:0:480;2749:0:380
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 445.184895
+    [expected_profit] => -1153.285595
+    [num_of_sellers] => 53
+    [release_date] => 2005/4/27
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,キッチン用品・食器,食器・グラス・カトラリー,マグカップ・ティーカップ,マグカップ','https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg','https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg','B0009I6LJM','食楽工房 銅マグカップ 12オンス 360cc CNE-902','993819','259 g','4.5 x 4.1 x 3.8 inches','1785','25.1','27','25.10:0:0;25.12:0:0;25.13:0:0','1','1891','1891','1891:1:0;2310:0:480;2749:0:380','PRIME','PRIME','445.184895','-1153.285595','53','2005/4/27') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,キッチン用品・食器,食器・グラス・カトラリー,マグカップ・ティーカップ,マグカップ',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41HamMlSu2L.jpg',asin = 'B0009I6LJM',commodity = '食楽工房 銅マグカップ 12オンス 360cc CNE-902',ranking = '993819',weight = '259 g',dimensions = '4.5 x 4.1 x 3.8 inches',shipping = '1785',price_us = '25.1',price_us_prime = '27',prices_3_us = '25.10:0:0;25.12:0:0;25.13:0:0',amazon_prime = '1',price_jp = '1891',price_jp_prime = '1891',prices_3_jp = '1891:1:0;2310:0:480;2749:0:380',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '445.184895',expected_profit = '-1153.285595',num_of_sellers = '53',release_date = '2005/4/27'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 2d2ffd62-d345-46c4-bc2f-a93c37449dfb
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 3d59a79a-f20a-447d-8564-1f9d111bd9df
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 229
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,釣り,リール,ベイトリール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg
+    [asin] => B00B62IUEE
+    [commodity] => ダイワ(Daiwa) リール T3 MX 1016SHL-TW
+    [ranking] => 206060
+    [weight] => 381 g
+    [dimensions] => 
+    [shipping] => 1935
+    [price_us] => 272.95
+    [price_us_prime] => 272.95
+    [prices_3_us] => 272.95:0:0;272.95:0:0;272.95:0:0
+    [amazon_prime] => 1
+    [price_jp] => 11340
+    [price_jp_prime] => 11340
+    [prices_3_jp] => 11340:1:0;41040:0:0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 4841.1640275
+    [expected_profit] => 14158.2628225
+    [num_of_sellers] => 7
+    [release_date] => 2013/1/25
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,釣り,リール,ベイトリール','https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg','https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg','B00B62IUEE','ダイワ(Daiwa) リール T3 MX 1016SHL-TW','206060','381 g','','1935','272.95','272.95','272.95:0:0;272.95:0:0;272.95:0:0','1','11340','11340','11340:1:0;41040:0:0','PRIME','PRIME','4841.1640275','14158.2628225','7','2013/1/25') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,釣り,リール,ベイトリール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/410HB0tAqbL.jpg',asin = 'B00B62IUEE',commodity = 'ダイワ(Daiwa) リール T3 MX 1016SHL-TW',ranking = '206060',weight = '381 g',dimensions = '',shipping = '1935',price_us = '272.95',price_us_prime = '272.95',prices_3_us = '272.95:0:0;272.95:0:0;272.95:0:0',amazon_prime = '1',price_jp = '11340',price_jp_prime = '11340',prices_3_jp = '11340:1:0;41040:0:0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '4841.1640275',expected_profit = '14158.2628225',num_of_sellers = '7',release_date = '2013/1/25'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 5848e603-5847-422b-8609-236740c9bf1d
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => ac158db9-74b4-4710-81ca-9427a4905309
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg
+    [asin] => B00UMKXYN8
+    [commodity] => スヌーピー もぐもぐシリーズ ラウンドコンテナ 2個セット 31133
+    [ranking] => 
+    [weight] => 91 g
+    [dimensions] => 5.3 x 5 x 3.2 inches
+    [shipping] => 1485
+    [price_us] => 49.08
+    [price_us_prime] => 49.08
+    [prices_3_us] => 49.08:0:0;49.08:0:0;49.08:0:0
+    [amazon_prime] => 1
+    [price_jp] => 0
+    [price_jp_prime] => 0
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 870.504966
+    [expected_profit] => 3447.861474
+    [num_of_sellers] => 6
+    [release_date] => 2015/3/13
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱','https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg','https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg','B00UMKXYN8','スヌーピー もぐもぐシリーズ ラウンドコンテナ 2個セット 31133','','91 g','5.3 x 5 x 3.2 inches','1485','49.08','49.08','49.08:0:0;49.08:0:0;49.08:0:0','1','0','0','PRIME','PRIME','870.504966','3447.861474','6','2015/3/13') ON DUPLICATE KEY UPDATE category = 'ホーム＆キッチン,キッチン用品・食器,弁当箱・水筒,弁当箱',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41nBMqFJ31L.jpg',asin = 'B00UMKXYN8',commodity = 'スヌーピー もぐもぐシリーズ ラウンドコンテナ 2個セット 31133',ranking = '',weight = '91 g',dimensions = '5.3 x 5 x 3.2 inches',shipping = '1485',price_us = '49.08',price_us_prime = '49.08',prices_3_us = '49.08:0:0;49.08:0:0;49.08:0:0',amazon_prime = '1',price_jp = '0',price_jp_prime = '0',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '870.504966',expected_profit = '3447.861474',num_of_sellers = '6',release_date = '2015/3/13'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 4d129491-30b1-435c-a286-2a04e40a3da1
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 4b8f2f82-8eac-412b-8fb7-81ea8efec6c7
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,釣り,リール,スピニングリール
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg
+    [asin] => B000AR3334
+    [commodity] => ダイワ(Daiwa) リール アオリマチック 夜光3050
+    [ranking] => 
+    [weight] => 449 g
+    [dimensions] => 
+    [shipping] => 2085
+    [price_us] => 111.78
+    [price_us_prime] => 111.78
+    [prices_3_us] => 111.78:0:0;125.61:0:0;125.61:0:0
+    [amazon_prime] => 1
+    [price_jp] => 8649
+    [price_jp_prime] => 8649
+    [prices_3_jp] => 8649:1:0;8900:0:540
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 1982.580381
+    [expected_profit] => 500.622159
+    [num_of_sellers] => 6
+    [release_date] => 2005/8/29
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,釣り,リール,スピニングリール','https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg','https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg','B000AR3334','ダイワ(Daiwa) リール アオリマチック 夜光3050','','449 g','','2085','111.78','111.78','111.78:0:0;125.61:0:0;125.61:0:0','1','8649','8649','8649:1:0;8900:0:540','PRIME','PRIME','1982.580381','500.622159','6','2005/8/29') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,釣り,リール,スピニングリール',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/41fLOCZYp1L.jpg',asin = 'B000AR3334',commodity = 'ダイワ(Daiwa) リール アオリマチック 夜光3050',ranking = '',weight = '449 g',dimensions = '',shipping = '2085',price_us = '111.78',price_us_prime = '111.78',prices_3_us = '111.78:0:0;125.61:0:0;125.61:0:0',amazon_prime = '1',price_jp = '8649',price_jp_prime = '8649',prices_3_jp = '8649:1:0;8900:0:540',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '1982.580381',expected_profit = '500.622159',num_of_sellers = '6',release_date = '2005/8/29'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => fd3187eb-4699-4e0f-a795-80fa674d42fa
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 600118b6-f5e7-4a11-bec9-a159d2b536fe
+)
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 231
+PHP Notice:  Undefined offset: 1 in /var/www/html/amazon-tool/service/extraction.php on line 291
+<PRE>Array
+(
+    [category] => スポーツ＆アウトドア,釣り,ライン
+    [image_jp] => https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg
+    [image_us] => https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg
+    [asin] => B01C3HC3A2
+    [commodity] => ダイワ(Daiwa) ライン UVF ソルティガセンサー 8ブレイド+si 5-300
+    [ranking] => 
+    [weight] => 118 g
+    [dimensions] => 
+    [shipping] => 1635
+    [price_us] => 98.6
+    [price_us_prime] => 98.6
+    [prices_3_us] => 98.60:0:0;98.60:0:0;98.70:0:0
+    [amazon_prime] => 1
+    [price_jp] => 4663
+    [price_jp_prime] => 4663
+    [prices_3_jp] => 4663:1:0;4860:0:120;4910:0:540
+    [days_to_ship] => PRIME
+    [days_to_ship_prime] => PRIME
+    [amazon_commission] => 1748.81397
+    [expected_profit] => 3611.94583
+    [num_of_sellers] => 3
+    [release_date] => 2016/2/22
+)
+</PRE>INSERT INTO products(`category`,`image_jp`,`image_us`,`asin`,`commodity`,`ranking`,`weight`,`dimensions`,`shipping`,`price_us`,`price_us_prime`,`prices_3_us`,`amazon_prime`,`price_jp`,`price_jp_prime`,`prices_3_jp`,`days_to_ship`,`days_to_ship_prime`,`amazon_commission`,`expected_profit`,`num_of_sellers`,`release_date`) VALUES ('スポーツ＆アウトドア,釣り,ライン','https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg','https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg','B01C3HC3A2','ダイワ(Daiwa) ライン UVF ソルティガセンサー 8ブレイド+si 5-300','','118 g','','1635','98.6','98.6','98.60:0:0;98.60:0:0;98.70:0:0','1','4663','4663','4663:1:0;4860:0:120;4910:0:540','PRIME','PRIME','1748.81397','3611.94583','3','2016/2/22') ON DUPLICATE KEY UPDATE category = 'スポーツ＆アウトドア,釣り,ライン',image_jp = 'https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg',image_us = 'https://images-na.ssl-images-amazon.com/images/I/51rWh56flDL.jpg',asin = 'B01C3HC3A2',commodity = 'ダイワ(Daiwa) ライン UVF ソルティガセンサー 8ブレイド+si 5-300',ranking = '',weight = '118 g',dimensions = '',shipping = '1635',price_us = '98.6',price_us_prime = '98.6',prices_3_us = '98.60:0:0;98.60:0:0;98.70:0:0',amazon_prime = '1',price_jp = '4663',price_jp_prime = '4663',prices_3_jp = '4663:1:0;4860:0:120;4910:0:540',days_to_ship = 'PRIME',days_to_ship_prime = 'PRIME',amazon_commission = '1748.81397',expected_profit = '3611.94583',num_of_sellers = '3',release_date = '2016/2/22'PHP Deprecated:  iconv_set_encoding(): Use of iconv.output_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 92
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.input_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 93
+PHP Deprecated:  iconv_set_encoding(): Use of iconv.internal_encoding is deprecated in /var/www/html/amazon-tool/backend/Client.php on line 94
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => RequestThrottled
+            [Message] => Request is throttled
+        )
+
+    [RequestID] => 0304f681-a8cd-4e4d-9985-0aaa5c6550dd
+)
+<PRE>SimpleXMLElement Object
+(
+    [Error] => SimpleXMLElement Object
+        (
+            [Type] => SimpleXMLElement Object
+                (
+                )
+
+            [Code] => QuotaExceeded
+            [Message] => You exceeded your quota of 30.0 requests per 1 hour for operation Feeds/2009-01-01/SubmitFeed.  Your quota will reset on Tue Jan 03 13:21:00 UTC 2017
+        )
+
+    [RequestID] => 7494eb10-d500-4a5b-9a5a-dbee35c6af5c
+)

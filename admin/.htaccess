@@ -1,0 +1,5 @@
+DirectoryIndex index.html index.php operator-login.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} \.(png|jpg|gif|jpeg|ico|bmp|css|ts|js)$
+RewriteRule (.*) http://tool.kurofune.club/$1 [R=301,L]
