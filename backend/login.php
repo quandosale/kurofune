@@ -20,7 +20,8 @@
 		if($username!="pp-furzealga" && $username!="pp-boarwily" && $username!="pp-youlaugh")
 			return -1;
 		$link = connect();
-		$res = query(TABLE_USERS,[]," WHERE name='$username' and password = ENCRYPT('$password', password);",$link);
+		// $res = query(TABLE_USERS,[]," WHERE name='$username' and password = ENCRYPT('$password', password);",$link);
+		$res = query(TABLE_USERS,[]," WHERE name='$username' and password = '$password';",$link);
     	$row = mysqli_fetch_array($res);
 		print_r($row);
     	return $row ? $row['id'] : -1; 

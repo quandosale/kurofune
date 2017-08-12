@@ -23,7 +23,7 @@
 	define("DB_HOST","localhost");
 	define("DB_NAME","amazon_tool");
 	define("DB_USER","root");
-	define("DB_PASS","123456");
+	define("DB_PASS","");
 	define("TABLE_ASIN_URLS","asin_urls");
 	define("TABLE_ASINS","asins");
 	define("TABLE_USERS","users");
